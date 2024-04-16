@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sutras",
+  "info": {
+    "singularName": "sutra",
+    "pluralName": "sutras",
+    "displayName": "sutra",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "contents": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
