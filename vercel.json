@@ -3,7 +3,7 @@
     "version": 2,
     "builds": [
         {
-            "src": "npm run build",
+            "src": "yarn build",
             "use": "@vercel/node"
         }
     ],
