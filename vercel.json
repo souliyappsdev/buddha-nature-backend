@@ -1,16 +1,15 @@
 {
-    "name": "buddha-nature",
     "version": 2,
     "builds": [
         {
-            "src": "yarn build",
+            "src": "config/server.js",
             "use": "@vercel/node"
         }
     ],
     "routes": [
         {
-            "src": "/.*",
-            "dest": "/"
+            "src": "/api/(.*)",
+            "dest": "config/server.js"
         }
     ]
 }
